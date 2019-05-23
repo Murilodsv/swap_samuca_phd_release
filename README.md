@@ -22,3 +22,5 @@ http://www.teses.usp.br/teses/disponiveis/11/11152/tde-01082018-150704/pt-br.php
 - Place anyother needed file from Swap.swp at same folder (weather, irrigation, soil temperature, etc...)
 - Double click on SWAP_SAMUCA.exe
 - Simulation results are in 'Plant_%prj.name%.OUT'
+
+An Example for Piracicaba, Brazil is provided.
