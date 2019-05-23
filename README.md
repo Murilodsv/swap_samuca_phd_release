@@ -1,18 +1,24 @@
 # SWAP(Soil, Water, Atmosphere and Plant) + SAMUCA (Agronomic Modular Simulator for Sugarcane)
 
+# [RELEASE]
+
 ## Major Goal:
 Simulate Sugarcane growth and development with a robust soil water/heat/solute flux platform.
 
 - Last version in Dec/2017
 
-## Full detail:
+## Scientific base:
 http://www.teses.usp.br/teses/disponiveis/11/11152/tde-01082018-150704/pt-br.php
 
 ## Users:
 
-- Download the folder ~model\
-- Create a simulation control file in ~model\Control\ (ex. Murilo_Sim_CTRL_CP.ctl)
-- Modify the file "~model\Control\ListControl.sam" to run the control file
-- Make sure the corresponding meteorological (file.met) and soil (file.spd) data and crop (file.crp) parameters are in the folders Weather, Soil and Crop
-- Run the executable file ~model\samuca_vs_proj.exe"
-- Check outputs on ~model\output
+- Download this repository
+- Setup simulations in Swap.swp file
+- To run SAMUCA, CROPNAME, CROPFIL and CROPTYPE of Swap.swp file must be:
+- CROPNAME = 'Sugarcane'
+- CROPFIL  = 'Sugarcane'
+- CROPTYPE = 4
+- Make sure sugarcane crop paramaters are in the file "Param_SAMUCA.par" and placed in the same folder.
+- Place anyother needed file from Swap.swp at same folder (weather, irrigation, soil temperature, etc...)
+- Double click on SWAP_SAMUCA.exe
+- Simulation results are in 'Plant_%prj.name%.OUT'
